@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             images.append(imageView)
             
             var newX: CGFloat = 0.0
-            var newY: CGFloat = 0.0
+            var yCoOrd: CGFloat = 0.0
             
             newX = scrollWidth/2 + scrollWidth * CGFloat(x)
             newY = (scrollPane.frame.size.height / 2)
